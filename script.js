@@ -15,6 +15,7 @@ var body = document.querySelector('.body')
 
 var changeColor = function(){
     body.style.backgroundColor = 'white'
+    body.style.color = 'black'
 }
 
 document.addEventListener('click', changeColor)
