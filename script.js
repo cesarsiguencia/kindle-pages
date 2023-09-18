@@ -14,8 +14,7 @@ setInterval(initiate, 1000)
 var body = document.querySelector('.body')
 
 var changeColor = function(){
-    body.style.backgroundColor = 'white'
-    body.style.color = 'black'
+    body.style.backgroundColor = 'green'
 }
 
 document.addEventListener('click', changeColor)
