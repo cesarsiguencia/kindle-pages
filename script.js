@@ -1,7 +1,7 @@
 var time = 0 
 
 var initiate = function(){
-    time = time+1;
+    time = time+1
     document.getElementById('time').innerText = time
 }
 
