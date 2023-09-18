@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cesar's Kindle App</title>
+</head>
+
+<body className="body">
+    <p>Seconds since page loaded: <span id="time">0</span></p>
+    <script type="text/javascript">
+        var time = 0
+
+        var initiate = function () {
+            time = time + 1;
+            document.getElementById('time').innerText = time
+        }
+
+        setInterval(initiate, 1000)
+
+    </script>
+
+
+    <!-- <script type="text/javascript" src="script.js"></script> -->
+</body>
+
+</html>
