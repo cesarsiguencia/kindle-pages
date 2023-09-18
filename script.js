@@ -11,10 +11,10 @@ setInterval(initiate, 1000)
 
 
 
-// var body = document.querySelector('.body')
+var body = document.querySelector('.body')
 
-// var changeColor = function(){
-//     body.style.opacity = 0
-// }
+var changeColor = function(){
+    body.style ='background-color: white'
+}
 
-// document.addEventListener('click', changeColor)
+document.addEventListener('click', changeColor)
