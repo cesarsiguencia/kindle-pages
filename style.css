@@ -7,12 +7,12 @@ body{
     background-color: black;
 }
 
-.font{
+/* .font{
     width: 700px;
     height: 500px;
     margin: 100px auto;
     padding-left: 100px;
-    /* margin: 200px; */
+
 }
 
 .body{
@@ -32,7 +32,7 @@ body{
     transform: rotate(90deg)  translate(0, +130px);
 
 
-}
+} */
 
 #name{
     font-style: italic;
@@ -45,6 +45,12 @@ h3{
 
 h5{
     text-align: right
+}
+
+.no-rotate{
+    width: 90%;
+    margin: 100px auto;
+    color: white
 }
 /* .image{
     display: block;
