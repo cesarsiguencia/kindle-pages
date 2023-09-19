@@ -1,20 +1,53 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body{
+    background-color: black;
+}
+
+.font{
+    width: 700px;
+    height: 500px;
+    margin: 100px auto;
+    padding-left: 100px;
+    /* margin: 200px; */
+}
+
 .body{
-    width: 100%;
-    height: 100vh;
-    display: block;
+    display: table;
+    height: 768px;
+    width: 1024px;
+
     justify-content: center;
     align-items: center;
-    background-color: black;
     text-align: center;
     color: white;
+    font-size: 30px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg)  translate(0, +130px);
+
+
 }
 
 #name{
     font-style: italic;
 }
 
-.image{
+h3{
+    text-align: left;
+}
+
+
+h5{
+    text-align: right
+}
+/* .image{
     display: block;
     margin: 15px;
     margin-left:50px
-}
+} */

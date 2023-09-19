@@ -10,87 +10,28 @@
 
 </head>
 
-<body class="body">
-    <h3 id="quote"> </h3>
-    <h5 id="name"></h5>
-    <br />
-    <!-- <div>   
-        <img class='image' src="https://png.pngtree.com/png-vector/20210114/ourmid/pngtree-happy-3d-smile-emoji-png-image_2744217.jpg">
-    </div> -->
+<body>
+    <div class="body">
+        <div class="font">
+            <h3 id="quote"> </h3>
+            <br/>
+            <h5 id="name"></h5>
+        </div>
+
+        <br />
+        <!-- <div>   
+            <img class='image' src="https://png.pngtree.com/png-vector/20210114/ourmid/pngtree-happy-3d-smile-emoji-png-image_2744217.jpg">
+        </div> -->
 
 
 
 
-    <!-- <script type="text/javascript" src="script.js"></script> -->
-
-
-    <script type="text/javascript">
-        // var time = 0
-
-        // var initiate = function () {
-        //     time = time + 1;
-        //     document.getElementById('time').innerText = time
-        // }
-
-        // setInterval(initiate, 1000)
-
-
-        var fetchQuotes = function () {
-
-
-            // var res = await fetch('https://api.api-ninjas.com/v1/quotes?category=imagination', {
-            //     method: 'GET',
-            //     headers: { 'X-Api-Key': 'l8MFF+UcPr3CLfTvYl3GQA==vqjL9aCZxpwhBPeE' },
-            //     contentType: 'application/json',
-            // })
-
-            // if (res.ok) {
-            //     var data = await res.json()
-            //     console.log(data)
-            //     document.querySelector('#quote').textContent = data[0].quote
-
-            //     document.querySelector('#name').textContent = data[0].author
-            // } else {
-            //     document.querySelector('#quote').innerHTML = 'No quotes today!'
-            // }
-            // var theUrl = 'https://api.api-ninjas.com/v1/quotes?category=imagination'
-
-            // function testingAPI() {
-            //     var key = "8a1c6a354c884c658ff29a8636fd7c18";
-            //     var url = "https://api.fantasydata.net/nfl/v2/JSON/PlayerSeasonStats/2015";
-            //     console.log(httpGet(url, key));
-            // }
-
-            var key = 'l8MFF+UcPr3CLfTvYl3GQA==vqjL9aCZxpwhBPeE';
-            var url = 'https://api.api-ninjas.com/v1/quotes?category=imagination';
-
-    
-                var xmlHttp = new XMLHttpRequest();
-                xmlHttp.overrideMimeType("application/json")
-                xmlHttp.open("GET", url, false);
-                xmlHttp.setRequestHeader("X-Api-Key", key);
-                xmlHttp.send(null);
-                console.log(xmlHttp.response)
-
-                var data = JSON.parse(xmlHttp.response)
-                console.log(data)
-                
-           
-                if(xmlHttp.responseText){
-                    document.querySelector('#quote').textContent = data[0].quote
-                    document.querySelector('#name').textContent = data[0].author
-                } else{
-                    document.querySelector('#quote').innerHTML = 'No quotes today!'
-                }
-            
+        <script type="text/javascript" src="script.js"></script>
+    </div>
 
 
 
 
-        }
-
-        window.onload = fetchQuotes()
-    </script>
 </body>
 
 </html>
