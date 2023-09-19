@@ -7,16 +7,6 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Cesar's Kindle App</title>
-</head>
-
-<body class="body">
-    <h3 id="quote"> </h3>
-    <h5 id="name"></h5>
-    <br />
-    <!-- <div>   
-        <img class='image' src="https://png.pngtree.com/png-vector/20210114/ourmid/pngtree-happy-3d-smile-emoji-png-image_2744217.jpg">
-    </div> -->
-
     <script type="text/javascript">
         // var time = 0
 
@@ -51,8 +41,19 @@
 
         }
 
-        fetchQuotes()
+        window.onpaint = fetchQuotes()
     </script>
+</head>
+
+<body class="body">
+    <h3 id="quote"> </h3>
+    <h5 id="name"></h5>
+    <br />
+    <!-- <div>   
+        <img class='image' src="https://png.pngtree.com/png-vector/20210114/ourmid/pngtree-happy-3d-smile-emoji-png-image_2744217.jpg">
+    </div> -->
+
+   
 
 
     <!-- <script type="text/javascript" src="script.js"></script> -->
