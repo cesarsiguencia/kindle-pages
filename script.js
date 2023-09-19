@@ -15,7 +15,7 @@ var fetchQuotes = function () {
 
 
     if (xmlHttp.responseText) {
-        // document.querySelector('#quote').textContent = data[0].quote
+        document.querySelector('#quote').textContent = data[0].quote
         document.querySelector('#name').textContent = data[0].author
     } else {
         document.querySelector('#quote').innerHTML = 'No quotes today!'
@@ -41,7 +41,7 @@ var fontResize = function(){
     if(subBody.clientHeight > 1000){
         console.log(subBody.clientHeight)
         console.log('the body is too big')
-        // document.querySelector('#quote').style.fontSize= '50px'
+        document.querySelector('#quote').style.fontSize= '50px'
         document.querySelector('#name').style.fontSize = '40px'
     }
 }
