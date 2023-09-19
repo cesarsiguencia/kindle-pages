@@ -7,75 +7,22 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Cesar's Kindle App</title>
-    <script type="text/javascript">
-        // var time = 0
 
-        // var initiate = function () {
-        //     time = time + 1;
-        //     document.getElementById('time').innerText = time
-        // }
-
-        // setInterval(initiate, 1000)
-
-
-        var fetchQuotes = async function () {
-
-
-            var res = await fetch('https://api.api-ninjas.com/v1/quotes?category=imagination', {
-                method: 'GET',
-                headers: { 'X-Api-Key': 'l8MFF+UcPr3CLfTvYl3GQA==vqjL9aCZxpwhBPeE' },
-                contentType: 'application/json',
-            })
-
-            if (res.ok) {
-                var data = await res.json()
-                console.log(data)
-                document.querySelector('#quote').textContent = data[0].quote
-
-                document.querySelector('#name').textContent = data[0].author
-            } else {
-                document.querySelector('#quote').innerHTML = 'No quotes today!'
-            }
-
-
-
-        }
-
-        window.onpaint = fetchQuotes()
-    </script>
 </head>
 
-<!-- <body>
-    <div class="body">
-        <div class="font">
-            <h3 id="quote"> </h3>
-            <br/>
-            <h5 id="name"></h5>
-        </div>
-
-        <br />
-         <div>   
-            <img class='image' src="https://png.pngtree.com/png-vector/20210114/ourmid/pngtree-happy-3d-smile-emoji-png-image_2744217.jpg">
-        </div> 
-
-        <script type="text/javascript" src="script.js"></script>
-    </div>
-</body> -->
 
 
 <body >
-    <div class="no-rotate">
+    <div>
         <h3 id="quote"> </h3>
         <br/>
         <h5 id="name"></h5>
     </div>
            
         
-    
 
     
         <script type="text/javascript" src="script.js"></script>
-    </div>
 
 </body>
 
