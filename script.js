@@ -15,7 +15,7 @@ var fetchQuotes = function () {
 
 
     if (xmlHttp.responseText) {
-        // document.querySelector('#quote').textContent = data[0].quote
+        document.querySelector('#quote').textContent = data[0].quote
         document.querySelector('#name').textContent = data[0].author
     } else {
         document.querySelector('#quote').innerHTML = 'No quotes today!'
