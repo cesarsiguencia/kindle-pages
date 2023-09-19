@@ -67,7 +67,7 @@ h3{
     text-align: left;
     display: inline-block;
     font-size: 65px;
-    height: 650px
+
 }
 
 
@@ -78,11 +78,11 @@ h5{
 
 @media screen and (min-height: 1030px) {
     h3{
-        font-size: 50px
+        font-size: 55px
     }
 
     h5{
-        font-size: 40px
+        font-size: 50px
     }
     
 }
