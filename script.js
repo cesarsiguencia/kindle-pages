@@ -15,7 +15,7 @@ var fetchQuotes = function () {
 
 
     if (xmlHttp.responseText) {
-        document.querySelector('#quote').textContent = data[0].quote
+        // document.querySelector('#quote').textContent = data[0].quote
         document.querySelector('#name').textContent = data[0].author
     } else {
         document.querySelector('#quote').innerHTML = 'No quotes today!'
@@ -31,7 +31,7 @@ var fetchQuotes = function () {
 var fontResize = function(){
     var subBody = document.querySelector('.sub-div')
 
-    if(subBody.clientHeight > 1030){
+    if(subBody.clientHeight > 900){
         console.log(subBody.clientHeight)
         console.log('the body is too big')
         document.querySelector('#quote').style.fontSize= '50px'
