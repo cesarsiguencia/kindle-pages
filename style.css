@@ -76,13 +76,4 @@ h5{
     font-size: 50px;
 }
 
-@media screen and (min-height: 1030px) {
-    h3{
-        font-size: 55px
-    }
 
-    h5{
-        font-size: 50px
-    }
-    
-}
