@@ -9,7 +9,12 @@
     color: white;
 }
 
+#name{
+    font-style: italic;
+}
+
 .image{
     display: block;
-    margin: 15px 25px;
+    margin: 15px;
+    margin-left:50px
 }
