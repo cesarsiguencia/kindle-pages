@@ -1,13 +1,13 @@
-/* * {
+* {
     margin: 0;
     padding: 0
-} */
+}
 
-body{
+.body{
     background-color: black;
     color: white;
     height: 100vh;
-    width: 100%
+    width: 100%;
 }
 
 /* .font{
@@ -41,30 +41,48 @@ body{
     font-style: italic;
 }
 
-div{
+.sub-div{
     width: 90%;
-    height: 900px;
-    margin: 100px 50px;
+    /* height: 850px; */
+    padding: 50px 25px;
     color: white;
     word-wrap: break-word;
-    /* background-color: red */
+    /* background-color: red; */
+
+  
 }
+
+.quote-block{
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis;
+    word-wrap: break-word; */
+    display: block;
+    /* line-height: 1em; */
+    /* max-height: 50em;  */
+
+}
+
 
 h3{
     text-align: left;
-    font-size: 50px;
+    display: inline-block;
+    font-size: 65px;
+    height: 650px
 }
 
 
 h5{
     text-align: right;
-    font-size: 35px;
+    font-size: 50px;
 }
 
+@media screen and (min-height: 1030px) {
+    h3{
+        font-size: 50px
+    }
 
-
-/* .image{
-    display: block;
-    margin: 15px;
-    margin-left:50px
-} */
+    h5{
+        font-size: 40px
+    }
+    
+}
