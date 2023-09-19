@@ -8,6 +8,8 @@
     color: white;
     height: 100vh;
     width: 100%;
+    display: flex; 
+    align-items: center;
 }
 
 /* .font{
@@ -44,12 +46,9 @@
 .sub-div{
     width: 90%;
     /* height: 850px; */
-    padding: 50px 25px;
+    padding: 50px 35px;
     color: white;
     word-wrap: break-word;
-    /* background-color: red; */
-
-  
 }
 
 .quote-block{
@@ -77,3 +76,6 @@ h5{
 }
 
 
+.align-ver{
+
+  }
