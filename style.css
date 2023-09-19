@@ -41,22 +41,28 @@ body{
     font-style: italic;
 }
 
+div{
+    width: 90%;
+    height: 900px;
+    margin: 100px 50px;
+    color: white;
+    word-wrap: break-word;
+    /* background-color: red */
+}
+
 h3{
     text-align: left;
-    font-size: 60px;
+    font-size: 5vh;
 }
 
 
 h5{
     text-align: right;
-    font-size: 40px;
+    font-size: 3vw;
 }
 
-div{
-    width: 90%;
-    margin: 100px 50px;
-    color: white
-}
+
+
 /* .image{
     display: block;
     margin: 15px;
