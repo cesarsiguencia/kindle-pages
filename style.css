@@ -1,23 +1,19 @@
+:root{
+    background-color: black;
+}
+
 * {
     margin: 0;
     padding: 0
 }
 
 .body{
-    background-color: black;
+    
     color: white;
     height: 100vh;
     width: 100%;
     display: flex; 
     align-items: center;
-}
-
-/* .font{
-    width: 700px;
-    height: 500px;
-    margin: 100px auto;
-    padding-left: 100px;
-
 }
 
 .body{
