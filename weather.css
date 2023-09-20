@@ -29,3 +29,10 @@
 .two > .square:nth-child(even){
     background-color: black
 }
+
+
+.whole{
+    height: 1024px;
+    width: 768px;
+    background-color: black;
+}
