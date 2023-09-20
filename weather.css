@@ -3,15 +3,17 @@
     padding: 0;
 }
 
-
 .blocks{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: black;
-    width: 1500px;
+    height: 100px;
 }
 
-.square{
+
+.blocks:nth-child(even){
+
+    background-color: white;
+}
+
+/* .square{
     display: block;
  
     width: 100px;
@@ -28,11 +30,11 @@
 
 .two > .square:nth-child(even){
     background-color: black
-}
+} */
 
 
 .whole{
-    height: 1024px;
-    width: 768px;
+
+    width: 700px;
     background-color: black;
 }
