@@ -1,4 +1,4 @@
-/* full width of browser on kindle is 900px by 725px!! */
+/* full width of browser on kindle is 890px by 725px!! */
 
 :root{
     margin: 0;
@@ -44,6 +44,6 @@
 
 .whole{
 
-    width: 735px;
+    width: 738px;
     background-color: black;
 }
