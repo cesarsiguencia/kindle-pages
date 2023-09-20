@@ -17,6 +17,11 @@
     background-color: white;
 }
 
+.blocks:nth-child(9){
+
+    height: 90px
+}
+
 /* .square{
     display: block;
  
@@ -39,6 +44,6 @@
 
 .whole{
 
-    width: 740px;
+    width: 735px;
     background-color: black;
 }
