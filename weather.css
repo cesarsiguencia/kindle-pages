@@ -1,0 +1,31 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+
+
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 1500px;
+}
+
+.square{
+    display: block;
+ 
+    width: 100px;
+    height: 100px;
+}
+
+.blocks > .square:nth-child(even){
+    background-color: white;
+}
+
+.two > .square:nth-child(odd){
+    background-color: white
+}
+
+.two > .square:nth-child(even){
+    background-color: black
+}
