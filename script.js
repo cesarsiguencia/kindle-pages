@@ -65,8 +65,7 @@ var fetchQuotes = function () {
 
     xmlHttp.send(null);
     console.log(xmlHttp.responseText)
-    var result1 = xmlHttp.responseText.slice(11)
-    var result = result1.slice(0,-1)
+    var result = xmlHttp.responseText.slice(11).slice(0,-1)
     console.log(result)
     var data = JSON.parse(result)
     console.log(data)
