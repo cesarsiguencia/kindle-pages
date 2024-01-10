@@ -42,19 +42,19 @@ var fetchQuotes = function () {
     "Mateo 19:4-5"],
       ["Así que no son ya más dos, sino una sola carne; por tanto, lo que Dios ha unido que no lo separé el hombre.",
     "Mateo 19:6"],
-      ["Y yo os digo que cualquiera que repudia a su mujer, salvo por causa de fornicación, y se casa con otra, adultera; y el que se casa con la repudiada, adultera.",
+      ["Y yo los digo que cualquiera que repudia a su mujer, salvo por causa de fornicación, y se casa con otra, adultera; y el que se casa con la repudiada, adultera.",
     "Mateo 19:9"],
-      ["Y yo os digo: pedid y se os dará, buscad y hallareís, llamad y se os   abrirá.",
+      ["Y yo los digo: pedid y se los dará, buscad y hallareís, llamad y se los   abrirá.",
     "Lucas 11:9"],
       ["Porque de tal manera amó Dios al mundo, que ha dado a su hijo unigénito para que todo aquel que en Él cree no se pierda, más tenga vida eterna.",
     "Juan 3:16"],
       ["Porque no envió Dios a su Hijo al mundo para condenar al mundo, sino para que el mundo sea salvo por él.",
     "Juan 3:17"],
-      ["Y conocereís la verdad y la verdad os hará libres.",
+      ["Y conocereís la verdad y la verdad los hará libres.",
     "Juan 8:32"],
       ["Jesús le dijo: Yo soy el camino, y la verdad, y la vida; nadie viene al Padre, sino por mi.",
     "Juan 14:6"],
-      ["No os engañeis, Dios no puede ser burlado,pues todo lo que el hombre   sembraré, eso también segará.",
+      ["No los engañeis, Dios no puede ser burlado, pues todo lo que el hombre sembraré, eso también segará.",
       "Galatas 6:7"],
       ["He aquí, yo estoy a la puerta y llamo; si alguno oye mi voz y abre la puerta,  entraré a él, y cenaré con él, y él conmigo.",
     "Apocalipisis 3:20"],
@@ -68,7 +68,7 @@ var fetchQuotes = function () {
       "Salmo 141:4"],
       ["Bienaventurado el hombre que tiene en Ti sus fuerzas en cuyo corazón están tus caminos",
     "Salmo 84:5"],
-      ["No dejandoos de congregar como algunos tiene por costumbre, sino exhortandoos y tanto más cuando veís que aquel dia está cerca.",
+      ["No dejamos de congregar como algunos tiene por costumbre, sino exhortandoos y tanto más cuando veís que aquel dia está cerca.",
     "Hebreos 10:9"],
       ["Pero tu cuando ores, entra a tu cuarto, cierra la puerta y habla con tu Padre que está en el cielo.",
     "Mateo 6:6"],
@@ -76,9 +76,9 @@ var fetchQuotes = function () {
     "Mateo 6:14"],
       ["Luego Jesús dijo, hija tu fe te ha sanado vete en paz y sin ninguna   enfermedad.",
       "Marcos 5:34"],
-      ["Pedid y se os daŕa, buscad y encontrareís, llamad y se os abrirá.",
+      ["Pedid y se los daŕa, buscad y encontrareís, llamad y se los abrirá.",
     "Lucas 11:9"],
-      ["Pues la voluntad de Dios es vuestra santificación, que os aparteís de fornicación.",
+      ["Pues la voluntad de Dios es vuestra santificación, que los aparteís de fornicación.",
     "1 Tesalonicensenses 4:3"],
       ["Hice un pacto solemne con mis hijos, no mirar con desea a una muchacha.",
     "Job 31:1"],
@@ -104,9 +104,8 @@ var fetchQuotes = function () {
     "Efesios 5:25"]
       ]
 
-      var i = Math.floor(Math.random() * versiculos.length);
-        console.log(i);
-
+    var i = Math.floor(Math.random() * versiculos.length);
+    console.log(i);
 
     if (i) {
         document.querySelector('#quote').textContent = versiculos[i][0]
@@ -119,7 +118,6 @@ var fetchQuotes = function () {
     setTimeout(function(){
         location.reload()
     }, 3600000)
-    
 }
 
 var fontResize = function(){
