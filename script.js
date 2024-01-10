@@ -65,14 +65,15 @@ var fetchQuotes = function () {
 
     xmlHttp.send(null);
     console.log(xmlHttp.responseText)
-    // var result = xmlHttp.responseText.slice(11).slice(0,-1)
-    // console.log(result)
-    // var data = JSON.parse(result)
-    // console.log(data)
+    var result1 = xmlHttp.responseText.slice(11)
+    var result = result1.slice(0,-1)
+    console.log(result)
+    var data = JSON.parse(result)
+    console.log(data)
 
 
     if (xmlHttp.responseText) {
-        document.querySelector('#quote').textContent = xmlHttp.responseText
+        document.querySelector('#quote').textContent = data[0].text
         // document.querySelector('#name').textContent = data[0].bookname + " " + data[0].chapter + ":" + data[0].verse
     } else {
         document.querySelector('#quote').innerHTML = 'No quotes today!'
